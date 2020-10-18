@@ -1,0 +1,11 @@
+#dag_id: daily_limits_agg
+#
+#dag:
+#  schedule_interval: '0 0 * * *'
+#  max_active_runs: 1
+#  dagrun_timeout:
+#    hours: 24
+#  subtask_name: transfer
+#
+#
+#bq:
